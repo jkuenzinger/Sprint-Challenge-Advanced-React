@@ -11,6 +11,8 @@ export default class PlayerList extends React.Component{
         }
 // below im creating a componedidmount function wehre i will be fetching the players data fom the api hosted locally on my system
 // I will then set the response i get to the players array use this.setstate and set up a catch in case there is an error
+// had an error but foudn out that if you are using fetch you need to set the res to res.json() not sure why need to dive deeper into this.
+// found answer on stack overflow read later
 componentDidMount(){
 fetch('http://localhost:5000/api/players')
 .then(res => res.json())
