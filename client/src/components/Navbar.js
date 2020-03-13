@@ -9,7 +9,8 @@ const Navbar = () => {
     const [darkMode, setDarkMode] = useDarkMode(toggleDark)
 
     return (
-        <div className="dark-mode__toggle">
+        <div className="dark-mode__toggle" >
+          <h1 className='navbarTitle'>Women's World Cup Players</h1>
         <button
           onClick={toggleDark}
           data-testid='darkmode'

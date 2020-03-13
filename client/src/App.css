@@ -1,13 +1,46 @@
 .App {
   text-align: center;
 }
+body{
+  color:white;
 
-.navbar{
-  background-color: #5a3d5c;
 }
 
+.navbarTitle{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:1%;
+  background-color: #5a3d5c;
+  width:50%;
+  margin-left:25%;
+  border-radius:15px;
+
+}
+.playersmaincontainer{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+border-radius:15px;
+width:30%;
+margin-left:35%;
+background-color: #5a3d5c;
+
+
+}
+
+.playerptag{
+  padding:20px;
+  border-radius:15px;
+  background-color:#382039;
+}
 
 .dark-mode{
-  background-color: #5a3d5c;
+  background-color: #200f21;
+  color:#f638dc;
 }
+
+
+
 

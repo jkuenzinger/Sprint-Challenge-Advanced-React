@@ -24,9 +24,9 @@ fetch('http://localhost:5000/api/players')
 // i play for each player to have their own styled card
 render(){
     return(
-        <div>
+        <div className='playersmaincontainer'>
             <h2>Players</h2>
-            {this.state.players.map((player) => <p>{player.name}</p>)}
+            {this.state.players.map((player) => <p className='playerptag'>{player.name},  {player.country} </p>)}
         </div>
     )
 }
